@@ -163,7 +163,7 @@ def combined_and_single_tables(party_size):
          
         tables_sizes.append(int(current_available_seats))                                      #This stores the sizes within an array.
         current_table += 1                                                                     #This helps the while loop move to the next itteration. 
-                                                  #
+    
     current_timeslot = 1
                                                                                                            #Since I am using a while loop, I must define the initial bound timeslot outside of the while loop it is currently itterating through.
     while(current_timeslot < len(availability_of_tables_and_seats)):                                       #Since the length of an array is just the total amount of things within it, the current timeslot is being compared to the total amount of items within the array, which for this array is the total amount of timeslots.
